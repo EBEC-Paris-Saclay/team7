@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 from nomdelarue import nom
+import geopy
+from geopy.geocoders import Nominatim
+geocoders=Nominatim(user_agent='http')
 
 def callbackFunc():
     rue=nom((float(latitudeString.get()),float(longitudeString.get())))
