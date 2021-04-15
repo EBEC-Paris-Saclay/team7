@@ -16,5 +16,3 @@ def allnodesrue(adresse):
             coordinates.append((i["lat"],i["lon"]))
     return coordinates
 
-
-adresse = "5 rue Joliot-Curie Gif-sur-Yvette France"
