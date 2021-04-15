@@ -10,6 +10,7 @@ def callbackFunc():
     resultString.set("À "+str(rue[0])+', '+str(rue[1])+', '+str(rue[2]) )
      
 app = tk.Tk() 
+app.title('Recherche du nom de la rue')
 app.geometry('200x100')
 
 labelLatitude = tk.Label(app,text = "Latitude")
