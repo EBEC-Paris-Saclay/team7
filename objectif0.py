@@ -3,13 +3,12 @@ import geopy
 from geopy.geocoders import Nominatim
 def nom(coord): 
   adr=geocoder.reverse(coord)
-  informations=adr.raw['address']
-  adresse=[]
-  for element in ['house_number','road','town','city']:
+  total_info=adr.raw['address']
+  necessary_info=[]
+  for i in ['house_number','road','town','city']:
       try:
-        adresse.append(informations[element])
+        necessary_info.append(total_info[i])
       except:
         pass  
-  return adresse
-
+  return necessary_info
 
