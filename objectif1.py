@@ -8,13 +8,13 @@ geocoder=Nominatim(user_agent='http')
 from  ClassificationNoeuds import  classnoeud
 from allnodesrue import allnodesrue
 from ebec import troncon
+from nomdelarue import nom,adresse_complete
 
 
-
-adresse = "Place Victor Hugo Courbevoie"
-L=allnodesrue(adresse)
+coord=48.89394122, 2.247959188
+L=allnodesrue(adresse_complete(nom(coord)))
 L=classnoeud(L)
-troncon(L,(48.89227652, 2.253773690))
+troncon(L,(48.89394122, 2.247959188 ))
 
 
 

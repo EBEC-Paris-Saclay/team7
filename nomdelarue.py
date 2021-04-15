@@ -15,3 +15,8 @@ def nom(coord):
 
 coord=(48.89525193,2.247122897)
 
+def adresse_complete(info):
+  adr=''
+  for i in info:
+    adr= adr + i + ' '
+  print(adr)
