@@ -12,9 +12,11 @@ from nomdelarue import nom,adresse_complete
 
 
 coord=48.89394122, 2.247959188
-L=allnodesrue(adresse_complete(nom(coord)))
+adresse='Avenue Gambetta Courbevoie'
+L=allnodesrue(adresse)
+#L=allnodesrue(adresse_comlpete(nom(coord)) cette ligne permet de generer directement l'adresse complete et par conséquent de ne pas avoir a la taper nous même.
 L=classnoeud(L)
-troncon(L,(48.89394122, 2.247959188 ))
+troncon(L,(coord))
 
 
 
