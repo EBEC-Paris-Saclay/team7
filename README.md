@@ -1,6 +1,16 @@
-**EBEC 2021 Team Design 7**
+**EBEC Paris-Saclay 2021 Team Design 7**
 
-Pour utiliser le code produit par notre groupe dans le cadre de ce challenge Team Design EBEC 2021, il faut dans un premier temps ouvrir et exécuter le fichier "objectif0.py" qui résout l'objectif 0 initial du challenge. On peut la tester en appelant la fonction "nom" qui prend en argument la latitude et la longitude du point considéré.
+Bienvenue dans notre projet de team design pour l'EBEC Paris-Saclay 2021 !
 
-Dans un second temps, il faut ouvrir et exécuter le fichier "objectif1.py".
+Dans un premier temps, pour faire fonctionner notre projet, il faut télécharger tous les fichiers présents sur ce github.
+
+Par la suite, il faut installer le module geopy de python en utilisant la commande "pip install geopy" dans votre interpréteur de code python.
+
+**Objectif 0**
+
+Pour observer notre solution pour l'objectif initial du projet (objectif 0), il faut ouvrir et exécuter le fichier "objectif0.py". Une fenêtre de dialogue s'ouvre alors et il suffit de rentrer la lattitude et la longitude du point recherché puis de cliquer "localiser" pour obtenir l'adresse de ce point. 
+
+**Objectif 1**
+
+
 
