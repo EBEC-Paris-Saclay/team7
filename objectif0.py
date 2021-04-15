@@ -13,11 +13,3 @@ def nom(coord):
   return adresse
 
 
-geocoder=Nominatim(user_agent='http')
-adresse = "109 avenue du général leclerc 75014"  
-location = geocoder.geocode(adresse,addressdetails=True) #donne les coordonnées de l'adresse
-coord=[location.latitude,location.longitude]
-
-
-print(nom(coord))
-print(coord)
