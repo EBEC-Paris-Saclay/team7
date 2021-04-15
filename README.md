@@ -12,5 +12,5 @@ Pour observer notre solution pour l'objectif initial du projet (objectif 0), il 
 
 **Objectif 1**
 
-
+Pour observer notre solution pour l'objectif 1, il faut ouvrir et exécuter le fichier "objectif1.py" en renseignant les coordonnées dans la variable "coord" et l'adresse obtenue avec objectif0.py dans la variable "adresse"
 
